@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="#1D94CF">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/menu_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="?android:selectableItemBackgroundBorderless"
+                android:padding="8dp"
+                android:src="@drawable/ic_baseline_menu_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/main_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="64dp"
+                android:layout_margin="8dp"
+                android:background="?android:selectableItemBackgroundBorderless"
+                android:padding="8dp"
+                android:src="@drawable/ic_baseline_location_on_24" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/param"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#C3C3C3"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linear2"
+                style="@style/LinearLayoutStyle">
+
+                <ImageView
+                    style="@style/CicrleImageStyle"
+                    android:src="@drawable/img_kegeyli" />
+
+                <TextView
+                    android:id="@+id/kegeyli"
+                    style="@style/TextStyle"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:text="Кегейли" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linear1"
+                style="@style/LinearLayoutStyle">
+
+                <ImageView
+                    style="@style/CicrleImageStyle"
+                    android:src="@drawable/img_nukus" />
+
+                <TextView
+                    android:id="@+id/nukus"
+                    style="@style/TextStyle"
+                    android:background="?android:selectableItemBackgroundBorderless"
+
+                    android:text="Нукус" />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linear3"
+                style="@style/LinearLayoutStyle">
+
+                <ImageView
+                    style="@style/CicrleImageStyle"
+                    android:src="@drawable/img_muynak" />
+
+                <TextView
+                    android:id="@+id/muynak"
+                    style="@style/TextStyle"
+                    android:background="?android:selectableItemBackgroundBorderless"
+
+                    android:text="Муйнак" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linear4"
+                style="@style/LinearLayoutStyle">
+
+                <ImageView
+                    style="@style/CicrleImageStyle"
+                    android:src="@drawable/img_kungrad" />
+
+                <TextView
+                    android:id="@+id/kungrad"
+                    style="@style/TextStyle"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:text="Кунград" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linear5"
+                style="@style/LinearLayoutStyle">
+
+                <ImageView
+                    style="@style/CicrleImageStyle"
+                    android:src="@drawable/img_xojeli" />
+
+                <TextView
+                    android:id="@+id/xojeli"
+                    style="@style/TextStyle"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:text="Ходжели" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linear6"
+                style="@style/LinearLayoutStyle">
+
+                <ImageView
+                    style="@style/CicrleImageStyle"
+                    android:src="@drawable/img_chimbay" />
+
+                <TextView
+                    android:id="@+id/chimbay"
+                    style="@style/TextStyle"
+                    android:background="?android:selectableItemBackgroundBorderless"
+
+                    android:text="Чимбай" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linear7"
+                style="@style/LinearLayoutStyle">
+
+                <ImageView
+                    style="@style/CicrleImageStyle"
+                    android:src="@drawable/img_amudarya" />
+
+                <TextView
+                    android:id="@+id/amudarya"
+                    style="@style/TextStyle"
+
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:text="Амударья" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linear8"
+                style="@style/LinearLayoutStyle">
+
+                <ImageView
+                    style="@style/CicrleImageStyle"
+                    android:src="@drawable/img_taxtakopur" />
+
+                <TextView
+                    android:id="@+id/taxtakopir"
+                    style="@style/TextStyle"
+
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:text="Тахтакопир" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linear9"
+                style="@style/LinearLayoutStyle">
+
+                <ImageView
+                    style="@style/CicrleImageStyle"
+                    android:src="@drawable/img_qanlikol" />
+
+                <TextView
+                    android:id="@+id/qanlikol"
+                    style="@style/TextStyle"
+
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:text="Канлыкул" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linear10"
+                style="@style/LinearLayoutStyle">
+
+                <ImageView
+                    style="@style/CicrleImageStyle"
+                    android:src="@drawable/img_qaraozek" />
+
+                <TextView
+                    android:id="@+id/qaraozek"
+                    style="@style/TextStyle"
+                    android:background="?android:selectableItemBackgroundBorderless"
+
+                    android:text="Караузяк" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linear11"
+                style="@style/LinearLayoutStyle">
+
+                <ImageView
+                    style="@style/CicrleImageStyle"
+                    android:src="@drawable/img_tortkol" />
+
+                <TextView
+                    android:id="@+id/tortkol"
+                    style="@style/TextStyle"
+
+                    android:background="?android:selectableItemBackgroundBorderless"
+
+                    android:text="Турткул" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linear12"
+                style="@style/LinearLayoutStyle">
+
+                <ImageView
+                    style="@style/CicrleImageStyle"
+                    android:src="@drawable/img_shumanay" />
+
+                <TextView
+                    android:id="@+id/shumanay"
+                    style="@style/TextStyle"
+                    android:background="?android:selectableItemBackgroundBorderless"
+
+                    android:text="Шуманай" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linear13"
+                style="@style/LinearLayoutStyle">
+
+                <ImageView
+                    style="@style/CicrleImageStyle"
+                    android:src="@drawable/img_beruniy" />
+
+                <TextView
+                    android:id="@+id/beruniy"
+                    style="@style/TextStyle"
+
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:text="Беруний" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/linear14"
+                style="@style/LinearLayoutStyle">
+
+                <ImageView
+                    style="@style/CicrleImageStyle"
+                    android:src="@drawable/img_ellikqala" />
+
+                <TextView
+                    android:id="@+id/ellikqala"
+                    style="@style/TextStyle"
+                    android:background="?android:selectableItemBackgroundBorderless"
+
+                    android:text="Элликала" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
